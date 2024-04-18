@@ -16,3 +16,15 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+
+
+// Variables globales //
+const dots = document.querySelector(".dots")
+const arrowRight = document.querySelector(".arrow_right")
+const bannerSlides = document.querySelector(".banner-img")
+const bannertagLine = document.querySelector("#banner p")
+const arrowLeft = document.querySelector(".arrow_left")
+let index = 0
+
+
+main()
